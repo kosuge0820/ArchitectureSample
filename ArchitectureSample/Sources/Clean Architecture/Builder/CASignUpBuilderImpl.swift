@@ -12,15 +12,15 @@ struct CASignUpBuilderImpl: CASignUpBuilder {
     func build() -> UIViewController {
         let viewController = CASignUpViewController()
         viewController.inject(
-            presenter: CASignUpPresenterImpl(
-                view: viewController,
-                wireframe: CASignUpWireframeImpl(
-                    viewController: viewController
+        presenter: CASignUpPresenterImpl(
+            view: viewController,
+            wireframe: CASignUpWireframeImpl(
+                viewController: viewController
+            ),
+            useCase: CASignUpUseCaseImpl(
+                repository: CASignUpRepositoryImpl (
+                    dataStore: CASignUpDataStoreImpl()
                 ),
-                useCase: CASignUpUseCaseImpl(
-                    repository: CASignUpRepositoryImpl (
-                        dataStore: CASignUpDataStoreImpl()
-                    ),
                     translator: CASignUpTranslatorImpl()
                 )
             )

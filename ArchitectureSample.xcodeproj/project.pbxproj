@@ -71,8 +71,8 @@
 		383B146E1EC1DAD10044F940 /* SignInError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInError.swift; sourceTree = "<group>"; };
 		383B14701EC1DFF70044F940 /* MVVMSignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMSignInViewModel.swift; sourceTree = "<group>"; };
 		383B14721EC1E3A50044F940 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
-		38C6DEFB1EC4354F008C49FA /* MVPSignUpViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVPSignUpViewPresenter.swift; path = ArchitectureSample/MVPSignUpViewPresenter.swift; sourceTree = SOURCE_ROOT; };
-		38C6DEFD1EC44FE3008C49FA /* MVPUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVPUser.swift; path = ArchitectureSample/MVPUser.swift; sourceTree = SOURCE_ROOT; };
+		38C6DEFB1EC4354F008C49FA /* MVPSignUpViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPSignUpViewPresenter.swift; sourceTree = "<group>"; };
+		38C6DEFD1EC44FE3008C49FA /* MVPUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPUser.swift; sourceTree = "<group>"; };
 		38YSF9MYZ37GU4XG5PGDD4N3 /* CASignUpEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpEntity.swift; sourceTree = "<group>"; };
 		7E44N9TYEDFXZJC84R6NMF8F /* CASignUpPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpPresenterImpl.swift; sourceTree = "<group>"; };
 		7VBDUU7GRJQI70LS0XVX5NB7 /* CASignUpTranslatorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpTranslatorImpl.swift; sourceTree = "<group>"; };
@@ -111,8 +111,7 @@
 				KKUJ1Y2LSXNRFLD8B8BMPHQT /* CASignUpRepository.swift */,
 				VUSSKRD6ZLBTHD674MZJOV2N /* CASignUpRepositoryImpl.swift */,
 			);
-			name = Repository;
-			path = ../../CASignUp/Repository;
+			path = Repository;
 			sourceTree = "<group>";
 		};
 		36QR0T9M5K0N6U2BU8YIIINT /* Model */ = {
@@ -121,8 +120,7 @@
 				YWA01KGNJRHYR7DRCU47Y3WP /* CASignUpModel.swift */,
 				S8QHV9LIAN1DVA9S2EOO09S0 /* CASignUpModelImpl.swift */,
 			);
-			name = Model;
-			path = ../../CASignUp/Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		383B13F71EC1C2C20044F940 = {
@@ -165,10 +163,10 @@
 			isa = PBXGroup;
 			children = (
 				383B14391EC1C3780044F940 /* Common */,
-				383B14381EC1C3150044F940 /* MVVM */,
 				383B14371EC1C2E80044F940 /* MVC */,
-				383B14341EC1C2E50044F940 /* Clean Architecture */,
 				383B14361EC1C2E70044F940 /* MVP */,
+				383B14381EC1C3150044F940 /* MVVM */,
+				383B14341EC1C2E50044F940 /* Clean Architecture */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -176,16 +174,16 @@
 		383B14341EC1C2E50044F940 /* Clean Architecture */ = {
 			isa = PBXGroup;
 			children = (
-				S297Q4UXG1CXC0LZMFLMLFYQ /* Entity */,
+				EBFRMJ55UMAPNACFS23IHW6J /* Builder */,
 				NR4TIZBFH8AUWXQ4DIH4SBZ6 /* DataStore */,
-				2MRZ07OWFEV20GK3K26D6FOM /* Repository */,
-				OXAKLKKN4TMXCX1YEXCRSVY7 /* UseCase */,
-				NXLXYRGULX0453SSK31077O2 /* Translator */,
+				S297Q4UXG1CXC0LZMFLMLFYQ /* Entity */,
 				36QR0T9M5K0N6U2BU8YIIINT /* Model */,
 				CXJOUDQCM8HYL1KIEIX5TY4L /* Presenter */,
+				2MRZ07OWFEV20GK3K26D6FOM /* Repository */,
+				NXLXYRGULX0453SSK31077O2 /* Translator */,
+				OXAKLKKN4TMXCX1YEXCRSVY7 /* UseCase */,
 				P8P5PE61A50WPYDW3B39YBLO /* View */,
 				XY5FQQ4EVRGTP2C2IJWBCDQM /* Wireframe */,
-				EBFRMJ55UMAPNACFS23IHW6J /* Builder */,
 			);
 			path = "Clean Architecture";
 			sourceTree = "<group>";
@@ -194,8 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				383B14581EC1D3060044F940 /* Model */,
-				383B145A1EC1D30B0044F940 /* View */,
 				383B14591EC1D30A0044F940 /* Presenter */,
+				383B145A1EC1D30B0044F940 /* View */,
 			);
 			path = MVP;
 			sourceTree = "<group>";
@@ -353,8 +351,7 @@
 				JDZGL4F6E2IE8B25YRGRYB5W /* CASignUpPresenter.swift */,
 				7E44N9TYEDFXZJC84R6NMF8F /* CASignUpPresenterImpl.swift */,
 			);
-			name = Presenter;
-			path = ../../CASignUp/Presenter;
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		EBFRMJ55UMAPNACFS23IHW6J /* Builder */ = {
@@ -363,8 +360,7 @@
 				PP61I033CKNAASNIB54BDX11 /* CASignUpBuilder.swift */,
 				L3VIQ9857MHVM13FLEDI5EI2 /* CASignUpBuilderImpl.swift */,
 			);
-			name = Builder;
-			path = ../../CASignUp/Builder;
+			path = Builder;
 			sourceTree = "<group>";
 		};
 		NR4TIZBFH8AUWXQ4DIH4SBZ6 /* DataStore */ = {
@@ -373,8 +369,7 @@
 				MHZG4WHCGHRW4NP0IYJU6OQH /* CASignUpDataStore.swift */,
 				URTFJG04PMOTZMIGJHHME9GA /* CASignUpDataStoreImpl.swift */,
 			);
-			name = DataStore;
-			path = ../../CASignUp/DataStore;
+			path = DataStore;
 			sourceTree = "<group>";
 		};
 		NXLXYRGULX0453SSK31077O2 /* Translator */ = {
@@ -383,8 +378,7 @@
 				2BHYZPLRRTH2A1YKRXZL9XFJ /* CASignUpTranslator.swift */,
 				7VBDUU7GRJQI70LS0XVX5NB7 /* CASignUpTranslatorImpl.swift */,
 			);
-			name = Translator;
-			path = ../../CASignUp/Translator;
+			path = Translator;
 			sourceTree = "<group>";
 		};
 		OXAKLKKN4TMXCX1YEXCRSVY7 /* UseCase */ = {
@@ -393,8 +387,7 @@
 				W7QPKJPFTMATFVUD5XTW1MHV /* CASignUpUseCase.swift */,
 				BBR4NNM9OV4Q8E01M46QMUOF /* CASignUpUseCaseImpl.swift */,
 			);
-			name = UseCase;
-			path = ../../CASignUp/UseCase;
+			path = UseCase;
 			sourceTree = "<group>";
 		};
 		P8P5PE61A50WPYDW3B39YBLO /* View */ = {
@@ -403,8 +396,7 @@
 				EQRSLOUT00O9GNA7R5NAIH4L /* CASignUpViewController.swift */,
 				NKMW395YCB5XYM2CBE314B4E /* CASignUpViewControllerImpl.swift */,
 			);
-			name = View;
-			path = ../../CASignUp/View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		S297Q4UXG1CXC0LZMFLMLFYQ /* Entity */ = {
@@ -413,8 +405,7 @@
 				38YSF9MYZ37GU4XG5PGDD4N3 /* CASignUpEntity.swift */,
 				E3GNUV0HD4EOJ6HZ8JONVNEF /* CASignUpEntityImpl.swift */,
 			);
-			name = Entity;
-			path = ../../CASignUp/Entity;
+			path = Entity;
 			sourceTree = "<group>";
 		};
 		XY5FQQ4EVRGTP2C2IJWBCDQM /* Wireframe */ = {
@@ -423,8 +414,7 @@
 				9Q4FQ5OLSL7GXASMARLMYNDY /* CASignUpWireframe.swift */,
 				GU16YVRJMVDVAXHLCSI1SLBT /* CASignUpWireframeImpl.swift */,
 			);
-			name = Wireframe;
-			path = ../../CASignUp/Wireframe;
+			path = Wireframe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
