@@ -84,8 +84,8 @@
 		383B14021EC1C2C30044F940 /* ArchitectureSample */ = {
 			isa = PBXGroup;
 			children = (
-				383B14321EC1C2E30044F940 /* Sources */,
 				383B14311EC1C2E20044F940 /* Resources */,
+				383B14321EC1C2E30044F940 /* Sources */,
 			);
 			path = ArchitectureSample;
 			sourceTree = "<group>";
@@ -94,24 +94,26 @@
 			isa = PBXGroup;
 			children = (
 				383B14421EC1C9BF0044F940 /* Images */,
-				383B14071EC1C2C30044F940 /* Main.storyboard */,
-				383B140C1EC1C2C30044F940 /* LaunchScreen.storyboard */,
 				383B140F1EC1C2C30044F940 /* Info.plist */,
+				383B140C1EC1C2C30044F940 /* LaunchScreen.storyboard */,
+				383B14071EC1C2C30044F940 /* Main.storyboard */,
 			);
 			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		383B14321EC1C2E30044F940 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				383B14341EC1C2E50044F940 /* Clean Architecture */,
 				383B14391EC1C3780044F940 /* Common */,
-				383B14381EC1C3150044F940 /* MVVM */,
+				383B14351EC1C2E60044F940 /* DDD */,
 				383B14371EC1C2E80044F940 /* MVC */,
 				383B14361EC1C2E70044F940 /* MVP */,
-				383B14351EC1C2E60044F940 /* DDD */,
-				383B14341EC1C2E50044F940 /* Clean Architecture */,
+				383B14381EC1C3150044F940 /* MVVM */,
 			);
 			name = Sources;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		383B14341EC1C2E50044F940 /* Clean Architecture */ = {
@@ -120,6 +122,7 @@
 				383B145F1EC1D36A0044F940 /* CASignUpViewController.swift */,
 			);
 			name = "Clean Architecture";
+			path = "Clean Architecture";
 			sourceTree = "<group>";
 		};
 		383B14351EC1C2E60044F940 /* DDD */ = {
@@ -128,47 +131,52 @@
 				383B145D1EC1D3610044F940 /* DDDSignUpViewController.swift */,
 			);
 			name = DDD;
+			path = DDD;
 			sourceTree = "<group>";
 		};
 		383B14361EC1C2E70044F940 /* MVP */ = {
 			isa = PBXGroup;
 			children = (
-				383B145A1EC1D30B0044F940 /* View */,
 				383B14581EC1D3060044F940 /* Model */,
 				383B14591EC1D30A0044F940 /* Presenter */,
+				383B145A1EC1D30B0044F940 /* View */,
 			);
 			name = MVP;
+			path = MVP;
 			sourceTree = "<group>";
 		};
 		383B14371EC1C2E80044F940 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				383B143A1EC1C3810044F940 /* Controller */,
 				383B143C1EC1C3830044F940 /* Model */,
 				383B143B1EC1C3820044F940 /* View */,
-				383B143A1EC1C3810044F940 /* Controller */,
 			);
 			name = MVC;
+			path = MVC;
 			sourceTree = "<group>";
 		};
 		383B14381EC1C3150044F940 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
 				383B14401EC1C3A40044F940 /* Model */,
-				383B143F1EC1C3A30044F940 /* ViewModel */,
 				383B143E1EC1C3A20044F940 /* View */,
+				383B143F1EC1C3A30044F940 /* ViewModel */,
 			);
 			name = MVVM;
+			path = MVVM;
 			sourceTree = "<group>";
 		};
 		383B14391EC1C3780044F940 /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				383B14631EC1D7B40044F940 /* Utils */,
-				383B14511EC1D27C0044F940 /* Extension */,
-				383B14621EC1D58D0044F940 /* View */,
 				383B14611EC1D5880044F940 /* AppDelegate */,
+				383B14511EC1D27C0044F940 /* Extension */,
+				383B14631EC1D7B40044F940 /* Utils */,
+				383B14621EC1D58D0044F940 /* View */,
 			);
 			name = Common;
+			path = Common;
 			sourceTree = "<group>";
 		};
 		383B143A1EC1C3810044F940 /* Controller */ = {
@@ -177,6 +185,7 @@
 				383B14541EC1D2E70044F940 /* MVCSignUpViewController.swift */,
 			);
 			name = Controller;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		383B143B1EC1C3820044F940 /* View */ = {
@@ -184,6 +193,7 @@
 			children = (
 			);
 			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		383B143C1EC1C3830044F940 /* Model */ = {
@@ -192,6 +202,7 @@
 				383B146A1EC1D9450044F940 /* MVCSignIn.swift */,
 			);
 			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		383B143E1EC1C3A20044F940 /* View */ = {
@@ -200,6 +211,7 @@
 				383B14561EC1D2FF0044F940 /* MVVMSignUpViewController.swift */,
 			);
 			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		383B143F1EC1C3A30044F940 /* ViewModel */ = {
@@ -208,6 +220,7 @@
 				383B14701EC1DFF70044F940 /* MVVMSignInViewModel.swift */,
 			);
 			name = ViewModel;
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		383B14401EC1C3A40044F940 /* Model */ = {
@@ -216,6 +229,7 @@
 				381D44A81EC4221F00AFCE21 /* MVVMUser.swift */,
 			);
 			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		383B14421EC1C9BF0044F940 /* Images */ = {
@@ -224,17 +238,19 @@
 				383B140A1EC1C2C30044F940 /* Assets.xcassets */,
 			);
 			name = Images;
+			path = Images;
 			sourceTree = "<group>";
 		};
 		383B14511EC1D27C0044F940 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				383B14521EC1D28D0044F940 /* UIView+Extension.swift */,
-				383B14661EC1D8570044F940 /* UIAlertController+Extension.swift */,
 				383B14681EC1D8820044F940 /* ErrorProtocol.swift */,
+				383B14661EC1D8570044F940 /* UIAlertController+Extension.swift */,
 				383B14721EC1E3A50044F940 /* UIButton+Extension.swift */,
+				383B14521EC1D28D0044F940 /* UIView+Extension.swift */,
 			);
 			name = Extension;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		383B14581EC1D3060044F940 /* Model */ = {
@@ -242,6 +258,7 @@
 			children = (
 			);
 			name = Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		383B14591EC1D30A0044F940 /* Presenter */ = {
@@ -249,6 +266,7 @@
 			children = (
 			);
 			name = Presenter;
+			path = Presenter;
 			sourceTree = "<group>";
 		};
 		383B145A1EC1D30B0044F940 /* View */ = {
@@ -257,6 +275,7 @@
 				383B145B1EC1D34F0044F940 /* MVPSignUpViewController.swift */,
 			);
 			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		383B14611EC1D5880044F940 /* AppDelegate */ = {
@@ -265,6 +284,7 @@
 				383B14031EC1C2C30044F940 /* AppDelegate.swift */,
 			);
 			name = AppDelegate;
+			path = AppDelegate;
 			sourceTree = "<group>";
 		};
 		383B14621EC1D58D0044F940 /* View */ = {
@@ -274,6 +294,7 @@
 				383B144F1EC1CFD90044F940 /* SignUpView.xib */,
 			);
 			name = View;
+			path = View;
 			sourceTree = "<group>";
 		};
 		383B14631EC1D7B40044F940 /* Utils */ = {
@@ -283,6 +304,7 @@
 				383B146E1EC1DAD10044F940 /* SignInError.swift */,
 			);
 			name = Utils;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -387,6 +409,7 @@
 				383B14081EC1C2C30044F940 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		383B140C1EC1C2C30044F940 /* LaunchScreen.storyboard */ = {
@@ -395,6 +418,7 @@
 				383B140D1EC1C2C30044F940 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -500,7 +524,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GPW4376XQR;
-				INFOPLIST_FILE = ArchitectureSample/Info.plist;
+				INFOPLIST_FILE = ArchitectureSample/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.satoshi.ArchitectureSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,7 +537,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GPW4376XQR;
-				INFOPLIST_FILE = ArchitectureSample/Info.plist;
+				INFOPLIST_FILE = ArchitectureSample/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.satoshi.ArchitectureSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
