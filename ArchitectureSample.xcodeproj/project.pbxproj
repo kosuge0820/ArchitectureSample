@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		381D44A91EC4221F00AFCE21 /* MVVMUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D44A81EC4221F00AFCE21 /* MVVMUser.swift */; };
+		383B14041EC1C2C30044F940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B14031EC1C2C30044F940 /* AppDelegate.swift */; };
+		383B14091EC1C2C30044F940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383B14071EC1C2C30044F940 /* Main.storyboard */; };
+		383B140B1EC1C2C30044F940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 383B140A1EC1C2C30044F940 /* Assets.xcassets */; };
+		383B140E1EC1C2C30044F940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383B140C1EC1C2C30044F940 /* LaunchScreen.storyboard */; };
+		383B144E1EC1CFBD0044F940 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B144D1EC1CFBD0044F940 /* SignUpView.swift */; };
+		383B14501EC1CFD90044F940 /* SignUpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 383B144F1EC1CFD90044F940 /* SignUpView.xib */; };
+		383B14531EC1D28D0044F940 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B14521EC1D28D0044F940 /* UIView+Extension.swift */; };
+		383B14551EC1D2E70044F940 /* MVCSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B14541EC1D2E70044F940 /* MVCSignUpViewController.swift */; };
+		383B14571EC1D2FF0044F940 /* MVVMSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B14561EC1D2FF0044F940 /* MVVMSignUpViewController.swift */; };
+		383B145C1EC1D34F0044F940 /* MVPSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B145B1EC1D34F0044F940 /* MVPSignUpViewController.swift */; };
+		383B145E1EC1D3610044F940 /* DDDSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B145D1EC1D3610044F940 /* DDDSignUpViewController.swift */; };
+		383B14601EC1D36A0044F940 /* CASignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B145F1EC1D36A0044F940 /* CASignUpViewController.swift */; };
+		383B14651EC1D7D10044F940 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B14641EC1D7D10044F940 /* Result.swift */; };
+		383B14671EC1D8570044F940 /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B14661EC1D8570044F940 /* UIAlertController+Extension.swift */; };
+		383B14691EC1D8820044F940 /* ErrorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B14681EC1D8820044F940 /* ErrorProtocol.swift */; };
+		383B146B1EC1D9450044F940 /* MVCSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B146A1EC1D9450044F940 /* MVCSignIn.swift */; };
+		383B146F1EC1DAD10044F940 /* SignInError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B146E1EC1DAD10044F940 /* SignInError.swift */; };
+		383B14711EC1DFF70044F940 /* MVVMSignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B14701EC1DFF70044F940 /* MVVMSignInViewModel.swift */; };
+		383B14731EC1E3A50044F940 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B14721EC1E3A50044F940 /* UIButton+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		381D44A81EC4221F00AFCE21 /* MVVMUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMUser.swift; sourceTree = "<group>"; };
+		383B14001EC1C2C30044F940 /* ArchitectureSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitectureSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		383B14031EC1C2C30044F940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		383B14081EC1C2C30044F940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		383B140A1EC1C2C30044F940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		383B140D1EC1C2C30044F940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		383B140F1EC1C2C30044F940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		383B144D1EC1CFBD0044F940 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		383B144F1EC1CFD90044F940 /* SignUpView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SignUpView.xib; sourceTree = "<group>"; };
+		383B14521EC1D28D0044F940 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		383B14541EC1D2E70044F940 /* MVCSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVCSignUpViewController.swift; sourceTree = "<group>"; };
+		383B14561EC1D2FF0044F940 /* MVVMSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMSignUpViewController.swift; sourceTree = "<group>"; };
+		383B145B1EC1D34F0044F940 /* MVPSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPSignUpViewController.swift; sourceTree = "<group>"; };
+		383B145D1EC1D3610044F940 /* DDDSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDDSignUpViewController.swift; sourceTree = "<group>"; };
+		383B145F1EC1D36A0044F940 /* CASignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpViewController.swift; sourceTree = "<group>"; };
+		383B14641EC1D7D10044F940 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		383B14661EC1D8570044F940 /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		383B14681EC1D8820044F940 /* ErrorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorProtocol.swift; sourceTree = "<group>"; };
+		383B146A1EC1D9450044F940 /* MVCSignIn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVCSignIn.swift; sourceTree = "<group>"; };
+		383B146E1EC1DAD10044F940 /* SignInError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInError.swift; sourceTree = "<group>"; };
+		383B14701EC1DFF70044F940 /* MVVMSignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMSignInViewModel.swift; sourceTree = "<group>"; };
+		383B14721EC1E3A50044F940 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		383B13FD1EC1C2C30044F940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		383B13F71EC1C2C20044F940 = {
+			isa = PBXGroup;
+			children = (
+				383B14021EC1C2C30044F940 /* ArchitectureSample */,
+				383B14011EC1C2C30044F940 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		383B14011EC1C2C30044F940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				383B14001EC1C2C30044F940 /* ArchitectureSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		383B14021EC1C2C30044F940 /* ArchitectureSample */ = {
+			isa = PBXGroup;
+			children = (
+				383B14321EC1C2E30044F940 /* Sources */,
+				383B14311EC1C2E20044F940 /* Resources */,
+			);
+			path = ArchitectureSample;
+			sourceTree = "<group>";
+		};
+		383B14311EC1C2E20044F940 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				383B14421EC1C9BF0044F940 /* Images */,
+				383B14071EC1C2C30044F940 /* Main.storyboard */,
+				383B140C1EC1C2C30044F940 /* LaunchScreen.storyboard */,
+				383B140F1EC1C2C30044F940 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		383B14321EC1C2E30044F940 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				383B14391EC1C3780044F940 /* Common */,
+				383B14381EC1C3150044F940 /* MVVM */,
+				383B14371EC1C2E80044F940 /* MVC */,
+				383B14361EC1C2E70044F940 /* MVP */,
+				383B14351EC1C2E60044F940 /* DDD */,
+				383B14341EC1C2E50044F940 /* Clean Architecture */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		383B14341EC1C2E50044F940 /* Clean Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				383B145F1EC1D36A0044F940 /* CASignUpViewController.swift */,
+			);
+			name = "Clean Architecture";
+			sourceTree = "<group>";
+		};
+		383B14351EC1C2E60044F940 /* DDD */ = {
+			isa = PBXGroup;
+			children = (
+				383B145D1EC1D3610044F940 /* DDDSignUpViewController.swift */,
+			);
+			name = DDD;
+			sourceTree = "<group>";
+		};
+		383B14361EC1C2E70044F940 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+				383B145A1EC1D30B0044F940 /* View */,
+				383B14581EC1D3060044F940 /* Model */,
+				383B14591EC1D30A0044F940 /* Presenter */,
+			);
+			name = MVP;
+			sourceTree = "<group>";
+		};
+		383B14371EC1C2E80044F940 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				383B143C1EC1C3830044F940 /* Model */,
+				383B143B1EC1C3820044F940 /* View */,
+				383B143A1EC1C3810044F940 /* Controller */,
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+		383B14381EC1C3150044F940 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				383B14401EC1C3A40044F940 /* Model */,
+				383B143F1EC1C3A30044F940 /* ViewModel */,
+				383B143E1EC1C3A20044F940 /* View */,
+			);
+			name = MVVM;
+			sourceTree = "<group>";
+		};
+		383B14391EC1C3780044F940 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				383B14631EC1D7B40044F940 /* Utils */,
+				383B14511EC1D27C0044F940 /* Extension */,
+				383B14621EC1D58D0044F940 /* View */,
+				383B14611EC1D5880044F940 /* AppDelegate */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		383B143A1EC1C3810044F940 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				383B14541EC1D2E70044F940 /* MVCSignUpViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		383B143B1EC1C3820044F940 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		383B143C1EC1C3830044F940 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				383B146A1EC1D9450044F940 /* MVCSignIn.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		383B143E1EC1C3A20044F940 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				383B14561EC1D2FF0044F940 /* MVVMSignUpViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		383B143F1EC1C3A30044F940 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				383B14701EC1DFF70044F940 /* MVVMSignInViewModel.swift */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		383B14401EC1C3A40044F940 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				381D44A81EC4221F00AFCE21 /* MVVMUser.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		383B14421EC1C9BF0044F940 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				383B140A1EC1C2C30044F940 /* Assets.xcassets */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		383B14511EC1D27C0044F940 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				383B14521EC1D28D0044F940 /* UIView+Extension.swift */,
+				383B14661EC1D8570044F940 /* UIAlertController+Extension.swift */,
+				383B14681EC1D8820044F940 /* ErrorProtocol.swift */,
+				383B14721EC1E3A50044F940 /* UIButton+Extension.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		383B14581EC1D3060044F940 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		383B14591EC1D30A0044F940 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		383B145A1EC1D30B0044F940 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				383B145B1EC1D34F0044F940 /* MVPSignUpViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		383B14611EC1D5880044F940 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				383B14031EC1C2C30044F940 /* AppDelegate.swift */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		383B14621EC1D58D0044F940 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				383B144D1EC1CFBD0044F940 /* SignUpView.swift */,
+				383B144F1EC1CFD90044F940 /* SignUpView.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		383B14631EC1D7B40044F940 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				383B14641EC1D7D10044F940 /* Result.swift */,
+				383B146E1EC1DAD10044F940 /* SignInError.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		383B13FF1EC1C2C30044F940 /* ArchitectureSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 383B14281EC1C2C30044F940 /* Build configuration list for PBXNativeTarget "ArchitectureSample" */;
+			buildPhases = (
+				383B13FC1EC1C2C30044F940 /* Sources */,
+				383B13FD1EC1C2C30044F940 /* Frameworks */,
+				383B13FE1EC1C2C30044F940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArchitectureSample;
+			productName = ArchitectureSample;
+			productReference = 383B14001EC1C2C30044F940 /* ArchitectureSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		383B13F81EC1C2C20044F940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "k-satoshi";
+				TargetAttributes = {
+					383B13FF1EC1C2C30044F940 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = GPW4376XQR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 383B13FB1EC1C2C20044F940 /* Build configuration list for PBXProject "ArchitectureSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 383B13F71EC1C2C20044F940;
+			productRefGroup = 383B14011EC1C2C30044F940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				383B13FF1EC1C2C30044F940 /* ArchitectureSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		383B13FE1EC1C2C30044F940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383B14501EC1CFD90044F940 /* SignUpView.xib in Resources */,
+				383B140E1EC1C2C30044F940 /* LaunchScreen.storyboard in Resources */,
+				383B140B1EC1C2C30044F940 /* Assets.xcassets in Resources */,
+				383B14091EC1C2C30044F940 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		383B13FC1EC1C2C30044F940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383B145E1EC1D3610044F940 /* DDDSignUpViewController.swift in Sources */,
+				383B14691EC1D8820044F940 /* ErrorProtocol.swift in Sources */,
+				383B14711EC1DFF70044F940 /* MVVMSignInViewModel.swift in Sources */,
+				381D44A91EC4221F00AFCE21 /* MVVMUser.swift in Sources */,
+				383B14671EC1D8570044F940 /* UIAlertController+Extension.swift in Sources */,
+				383B144E1EC1CFBD0044F940 /* SignUpView.swift in Sources */,
+				383B14731EC1E3A50044F940 /* UIButton+Extension.swift in Sources */,
+				383B14571EC1D2FF0044F940 /* MVVMSignUpViewController.swift in Sources */,
+				383B14601EC1D36A0044F940 /* CASignUpViewController.swift in Sources */,
+				383B14531EC1D28D0044F940 /* UIView+Extension.swift in Sources */,
+				383B14651EC1D7D10044F940 /* Result.swift in Sources */,
+				383B146F1EC1DAD10044F940 /* SignInError.swift in Sources */,
+				383B146B1EC1D9450044F940 /* MVCSignIn.swift in Sources */,
+				383B14551EC1D2E70044F940 /* MVCSignUpViewController.swift in Sources */,
+				383B14041EC1C2C30044F940 /* AppDelegate.swift in Sources */,
+				383B145C1EC1D34F0044F940 /* MVPSignUpViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		383B14071EC1C2C30044F940 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				383B14081EC1C2C30044F940 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		383B140C1EC1C2C30044F940 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				383B140D1EC1C2C30044F940 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		383B14261EC1C2C30044F940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		383B14271EC1C2C30044F940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		383B14291EC1C2C30044F940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GPW4376XQR;
+				INFOPLIST_FILE = ArchitectureSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.satoshi.ArchitectureSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		383B142A1EC1C2C30044F940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GPW4376XQR;
+				INFOPLIST_FILE = ArchitectureSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.satoshi.ArchitectureSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		383B13FB1EC1C2C20044F940 /* Build configuration list for PBXProject "ArchitectureSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383B14261EC1C2C30044F940 /* Debug */,
+				383B14271EC1C2C30044F940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		383B14281EC1C2C30044F940 /* Build configuration list for PBXNativeTarget "ArchitectureSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				383B14291EC1C2C30044F940 /* Debug */,
+				383B142A1EC1C2C30044F940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 383B13F81EC1C2C20044F940 /* Project object */;
+}
