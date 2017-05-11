@@ -1,5 +1,5 @@
 //
-//  MVCSignIn.swift
+//  MVPUser.swift
 //  ArchitectureSample
 //
 //  Created by k-satoshi on 2017/05/11.
@@ -8,31 +8,33 @@
 
 import UIKit
 
-struct MVCUser {
-    private let email: String
-    private let password: String
+class MVPUser: NSObject {
+    private var email: String = ""
+    private var password: String = ""
+    
+    override init() {
+        super.init()
+    }
+    
+    init(email: String, password: String) {
+        super.init()
+        self.email = email
+        self.password = password
+    }
     
     public var get: (email: String, password: String) {
         return (email, password)
     }
     
-    //MARK: - Post Initializer
-    init(email: String, password: String) {
+    func setEmail(_ email: String) {
         self.email = email
+    }
+    
+    func setPassword(_ password: String) {
         self.password = password
     }
     
-    //MARK: - Fetch Initializer
-    init?(email: String?, password: String?) {
-        guard let email = email,
-              let password = password else {
-            return nil
-        }
-        self.email = email
-        self.password = password
-    }
-    
-    func attemptToSignIn(_ result: (Result<MVCUser, SignInError>) -> Void) {
+    func attemptToSignIn(_ result: (Result<MVPUser, SignInError>) -> Void) {
         if email.isEmpty {
             result(.failure(.formIsEmpty(.email)))
         } else if password.isEmpty {
@@ -43,7 +45,7 @@ struct MVCUser {
             result(.failure(.passwordIsShort))
         } else {
             //MVCUser ClassでPost
-            result(.success(MVCUser(email: email, password: password)))
+            result(.success(MVPUser(email: email, password: password)))
         }
     }
 }

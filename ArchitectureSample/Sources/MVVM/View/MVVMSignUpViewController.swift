@@ -46,7 +46,11 @@ class MVVMSignUpViewController: UIViewController {
         viewModel.attemptToSignIn { [weak self] result in
             switch result {
             case .success(let user):
-                let alertController = UIAlertController(title: user.email + user.password, message: nil, preferredStyle: .alert)
+                let alertController = UIAlertController(
+                    title: "email: " + user.email + "\n" + "password: " + user.password,
+                    message: nil, preferredStyle: .alert
+                )
+                alertController.addAction(UIAlertAction(title: "OK", style: .cancel))
                 self?.present(alertController, animated: true)
             case .failure(let error):
                 let alertController = UIAlertController(error)

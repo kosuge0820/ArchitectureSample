@@ -31,7 +31,10 @@ class MVCSignUpViewController: UIViewController {
         user.attemptToSignIn { [weak self] result in
             switch result {
             case .success(let user):
-                let alertController = UIAlertController(title: user.get.email + user.get.password, message: nil, preferredStyle: .alert)
+                let alertController = UIAlertController(
+                    title: "email: " + user.get.email + "\n" + "password: " + user.get.password,
+                    message: nil, preferredStyle: .alert
+                )
                 self?.present(alertController, animated: true)
             case .failure(let error):
                 let alertController = UIAlertController(error)

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0QIC87FX0GFZYD3YOAT8SWCU /* CASignUpDataStoreImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = URTFJG04PMOTZMIGJHHME9GA /* CASignUpDataStoreImpl.swift */; };
 		381D44A91EC4221F00AFCE21 /* MVVMUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 381D44A81EC4221F00AFCE21 /* MVVMUser.swift */; };
 		383B14041EC1C2C30044F940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B14031EC1C2C30044F940 /* AppDelegate.swift */; };
 		383B14091EC1C2C30044F940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 383B14071EC1C2C30044F940 /* Main.storyboard */; };
@@ -18,8 +19,6 @@
 		383B14551EC1D2E70044F940 /* MVCSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B14541EC1D2E70044F940 /* MVCSignUpViewController.swift */; };
 		383B14571EC1D2FF0044F940 /* MVVMSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B14561EC1D2FF0044F940 /* MVVMSignUpViewController.swift */; };
 		383B145C1EC1D34F0044F940 /* MVPSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B145B1EC1D34F0044F940 /* MVPSignUpViewController.swift */; };
-		383B145E1EC1D3610044F940 /* DDDSignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B145D1EC1D3610044F940 /* DDDSignUpViewController.swift */; };
-		383B14601EC1D36A0044F940 /* CASignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B145F1EC1D36A0044F940 /* CASignUpViewController.swift */; };
 		383B14651EC1D7D10044F940 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B14641EC1D7D10044F940 /* Result.swift */; };
 		383B14671EC1D8570044F940 /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B14661EC1D8570044F940 /* UIAlertController+Extension.swift */; };
 		383B14691EC1D8820044F940 /* ErrorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B14681EC1D8820044F940 /* ErrorProtocol.swift */; };
@@ -27,9 +26,31 @@
 		383B146F1EC1DAD10044F940 /* SignInError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B146E1EC1DAD10044F940 /* SignInError.swift */; };
 		383B14711EC1DFF70044F940 /* MVVMSignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B14701EC1DFF70044F940 /* MVVMSignInViewModel.swift */; };
 		383B14731EC1E3A50044F940 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383B14721EC1E3A50044F940 /* UIButton+Extension.swift */; };
+		38C6DEFC1EC4354F008C49FA /* MVPSignUpViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6DEFB1EC4354F008C49FA /* MVPSignUpViewPresenter.swift */; };
+		38C6DEFE1EC44FE3008C49FA /* MVPUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C6DEFD1EC44FE3008C49FA /* MVPUser.swift */; };
+		5FK52LFINC4HJCXSYH35A5M8 /* CASignUpTranslator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BHYZPLRRTH2A1YKRXZL9XFJ /* CASignUpTranslator.swift */; };
+		8EAOSBN03180CBD2UF9ES4Z1 /* CASignUpViewControllerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = NKMW395YCB5XYM2CBE314B4E /* CASignUpViewControllerImpl.swift */; };
+		A6K7HDHK1G8QIY8KG249CL25 /* CASignUpEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38YSF9MYZ37GU4XG5PGDD4N3 /* CASignUpEntity.swift */; };
+		GDW2WTK7GNS2KGEFGJVY23PT /* CASignUpTranslatorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7VBDUU7GRJQI70LS0XVX5NB7 /* CASignUpTranslatorImpl.swift */; };
+		GDW57HTY465ZC1OEQFJ0OQMX /* CASignUpPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = JDZGL4F6E2IE8B25YRGRYB5W /* CASignUpPresenter.swift */; };
+		JLS2KI3EKAQNA58XZAVL3629 /* CASignUpBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = PP61I033CKNAASNIB54BDX11 /* CASignUpBuilder.swift */; };
+		LFBIIXFLEETX9QM1AZ1HMTCJ /* CASignUpBuilderImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = L3VIQ9857MHVM13FLEDI5EI2 /* CASignUpBuilderImpl.swift */; };
+		LNYG1FK9OZ2IP6WJER1GWVCD /* CASignUpModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = S8QHV9LIAN1DVA9S2EOO09S0 /* CASignUpModelImpl.swift */; };
+		MY79LBS410TX8IRXJ4U7ANBJ /* CASignUpEntityImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3GNUV0HD4EOJ6HZ8JONVNEF /* CASignUpEntityImpl.swift */; };
+		QU1X5K5NZ1TRAC4JANGPTWOE /* CASignUpRepositoryImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = VUSSKRD6ZLBTHD674MZJOV2N /* CASignUpRepositoryImpl.swift */; };
+		R5P51KCN44SXWVYCH7G8MYGL /* CASignUpRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = KKUJ1Y2LSXNRFLD8B8BMPHQT /* CASignUpRepository.swift */; };
+		RV11FFEYSX3LT9L1CJYRPODM /* CASignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = YWA01KGNJRHYR7DRCU47Y3WP /* CASignUpModel.swift */; };
+		UC1RZR0Z6WKODE4H68ZY4FA3 /* CASignUpUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = W7QPKJPFTMATFVUD5XTW1MHV /* CASignUpUseCase.swift */; };
+		UY3HNFFRLIH7MJZTTVWMJSXP /* CASignUpPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E44N9TYEDFXZJC84R6NMF8F /* CASignUpPresenterImpl.swift */; };
+		XAO7DQLAOW980CVXN99ZB7P5 /* CASignUpDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = MHZG4WHCGHRW4NP0IYJU6OQH /* CASignUpDataStore.swift */; };
+		YT08PRBE9RYWB0CKRRGYLYDU /* CASignUpUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBR4NNM9OV4Q8E01M46QMUOF /* CASignUpUseCaseImpl.swift */; };
+		Z684QCRZGU3ZVI5UJVX6MO94 /* CASignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EQRSLOUT00O9GNA7R5NAIH4L /* CASignUpViewController.swift */; };
+		ZHBMMWD6WBCP11B5HWCSKSRP /* CASignUpWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9Q4FQ5OLSL7GXASMARLMYNDY /* CASignUpWireframe.swift */; };
+		ZVR6CPV2BILNEZV77L3YD6XJ /* CASignUpWireframeImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = GU16YVRJMVDVAXHLCSI1SLBT /* CASignUpWireframeImpl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2BHYZPLRRTH2A1YKRXZL9XFJ /* CASignUpTranslator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpTranslator.swift; sourceTree = "<group>"; };
 		381D44A81EC4221F00AFCE21 /* MVVMUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMUser.swift; sourceTree = "<group>"; };
 		383B14001EC1C2C30044F940 /* ArchitectureSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArchitectureSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		383B14031EC1C2C30044F940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,8 +64,6 @@
 		383B14541EC1D2E70044F940 /* MVCSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVCSignUpViewController.swift; sourceTree = "<group>"; };
 		383B14561EC1D2FF0044F940 /* MVVMSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMSignUpViewController.swift; sourceTree = "<group>"; };
 		383B145B1EC1D34F0044F940 /* MVPSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVPSignUpViewController.swift; sourceTree = "<group>"; };
-		383B145D1EC1D3610044F940 /* DDDSignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DDDSignUpViewController.swift; sourceTree = "<group>"; };
-		383B145F1EC1D36A0044F940 /* CASignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpViewController.swift; sourceTree = "<group>"; };
 		383B14641EC1D7D10044F940 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		383B14661EC1D8570044F940 /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
 		383B14681EC1D8820044F940 /* ErrorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorProtocol.swift; sourceTree = "<group>"; };
@@ -52,6 +71,27 @@
 		383B146E1EC1DAD10044F940 /* SignInError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInError.swift; sourceTree = "<group>"; };
 		383B14701EC1DFF70044F940 /* MVVMSignInViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MVVMSignInViewModel.swift; sourceTree = "<group>"; };
 		383B14721EC1E3A50044F940 /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		38C6DEFB1EC4354F008C49FA /* MVPSignUpViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVPSignUpViewPresenter.swift; path = ArchitectureSample/MVPSignUpViewPresenter.swift; sourceTree = SOURCE_ROOT; };
+		38C6DEFD1EC44FE3008C49FA /* MVPUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MVPUser.swift; path = ArchitectureSample/MVPUser.swift; sourceTree = SOURCE_ROOT; };
+		38YSF9MYZ37GU4XG5PGDD4N3 /* CASignUpEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpEntity.swift; sourceTree = "<group>"; };
+		7E44N9TYEDFXZJC84R6NMF8F /* CASignUpPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpPresenterImpl.swift; sourceTree = "<group>"; };
+		7VBDUU7GRJQI70LS0XVX5NB7 /* CASignUpTranslatorImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpTranslatorImpl.swift; sourceTree = "<group>"; };
+		9Q4FQ5OLSL7GXASMARLMYNDY /* CASignUpWireframe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpWireframe.swift; sourceTree = "<group>"; };
+		BBR4NNM9OV4Q8E01M46QMUOF /* CASignUpUseCaseImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpUseCaseImpl.swift; sourceTree = "<group>"; };
+		E3GNUV0HD4EOJ6HZ8JONVNEF /* CASignUpEntityImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpEntityImpl.swift; sourceTree = "<group>"; };
+		EQRSLOUT00O9GNA7R5NAIH4L /* CASignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpViewController.swift; sourceTree = "<group>"; };
+		GU16YVRJMVDVAXHLCSI1SLBT /* CASignUpWireframeImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpWireframeImpl.swift; sourceTree = "<group>"; };
+		JDZGL4F6E2IE8B25YRGRYB5W /* CASignUpPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpPresenter.swift; sourceTree = "<group>"; };
+		KKUJ1Y2LSXNRFLD8B8BMPHQT /* CASignUpRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpRepository.swift; sourceTree = "<group>"; };
+		L3VIQ9857MHVM13FLEDI5EI2 /* CASignUpBuilderImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpBuilderImpl.swift; sourceTree = "<group>"; };
+		MHZG4WHCGHRW4NP0IYJU6OQH /* CASignUpDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpDataStore.swift; sourceTree = "<group>"; };
+		NKMW395YCB5XYM2CBE314B4E /* CASignUpViewControllerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpViewControllerImpl.swift; sourceTree = "<group>"; };
+		PP61I033CKNAASNIB54BDX11 /* CASignUpBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpBuilder.swift; sourceTree = "<group>"; };
+		S8QHV9LIAN1DVA9S2EOO09S0 /* CASignUpModelImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpModelImpl.swift; sourceTree = "<group>"; };
+		URTFJG04PMOTZMIGJHHME9GA /* CASignUpDataStoreImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpDataStoreImpl.swift; sourceTree = "<group>"; };
+		VUSSKRD6ZLBTHD674MZJOV2N /* CASignUpRepositoryImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpRepositoryImpl.swift; sourceTree = "<group>"; };
+		W7QPKJPFTMATFVUD5XTW1MHV /* CASignUpUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpUseCase.swift; sourceTree = "<group>"; };
+		YWA01KGNJRHYR7DRCU47Y3WP /* CASignUpModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CASignUpModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +105,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2MRZ07OWFEV20GK3K26D6FOM /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				KKUJ1Y2LSXNRFLD8B8BMPHQT /* CASignUpRepository.swift */,
+				VUSSKRD6ZLBTHD674MZJOV2N /* CASignUpRepositoryImpl.swift */,
+			);
+			name = Repository;
+			path = ../../CASignUp/Repository;
+			sourceTree = "<group>";
+		};
+		36QR0T9M5K0N6U2BU8YIIINT /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				YWA01KGNJRHYR7DRCU47Y3WP /* CASignUpModel.swift */,
+				S8QHV9LIAN1DVA9S2EOO09S0 /* CASignUpModelImpl.swift */,
+			);
+			name = Model;
+			path = ../../CASignUp/Model;
+			sourceTree = "<group>";
+		};
 		383B13F71EC1C2C20044F940 = {
 			isa = PBXGroup;
 			children = (
@@ -98,50 +158,45 @@
 				383B140C1EC1C2C30044F940 /* LaunchScreen.storyboard */,
 				383B14071EC1C2C30044F940 /* Main.storyboard */,
 			);
-			name = Resources;
 			path = Resources;
 			sourceTree = "<group>";
 		};
 		383B14321EC1C2E30044F940 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				383B14341EC1C2E50044F940 /* Clean Architecture */,
 				383B14391EC1C3780044F940 /* Common */,
-				383B14351EC1C2E60044F940 /* DDD */,
-				383B14371EC1C2E80044F940 /* MVC */,
-				383B14361EC1C2E70044F940 /* MVP */,
 				383B14381EC1C3150044F940 /* MVVM */,
+				383B14371EC1C2E80044F940 /* MVC */,
+				383B14341EC1C2E50044F940 /* Clean Architecture */,
+				383B14361EC1C2E70044F940 /* MVP */,
 			);
-			name = Sources;
 			path = Sources;
 			sourceTree = "<group>";
 		};
 		383B14341EC1C2E50044F940 /* Clean Architecture */ = {
 			isa = PBXGroup;
 			children = (
-				383B145F1EC1D36A0044F940 /* CASignUpViewController.swift */,
+				S297Q4UXG1CXC0LZMFLMLFYQ /* Entity */,
+				NR4TIZBFH8AUWXQ4DIH4SBZ6 /* DataStore */,
+				2MRZ07OWFEV20GK3K26D6FOM /* Repository */,
+				OXAKLKKN4TMXCX1YEXCRSVY7 /* UseCase */,
+				NXLXYRGULX0453SSK31077O2 /* Translator */,
+				36QR0T9M5K0N6U2BU8YIIINT /* Model */,
+				CXJOUDQCM8HYL1KIEIX5TY4L /* Presenter */,
+				P8P5PE61A50WPYDW3B39YBLO /* View */,
+				XY5FQQ4EVRGTP2C2IJWBCDQM /* Wireframe */,
+				EBFRMJ55UMAPNACFS23IHW6J /* Builder */,
 			);
-			name = "Clean Architecture";
 			path = "Clean Architecture";
-			sourceTree = "<group>";
-		};
-		383B14351EC1C2E60044F940 /* DDD */ = {
-			isa = PBXGroup;
-			children = (
-				383B145D1EC1D3610044F940 /* DDDSignUpViewController.swift */,
-			);
-			name = DDD;
-			path = DDD;
 			sourceTree = "<group>";
 		};
 		383B14361EC1C2E70044F940 /* MVP */ = {
 			isa = PBXGroup;
 			children = (
 				383B14581EC1D3060044F940 /* Model */,
-				383B14591EC1D30A0044F940 /* Presenter */,
 				383B145A1EC1D30B0044F940 /* View */,
+				383B14591EC1D30A0044F940 /* Presenter */,
 			);
-			name = MVP;
 			path = MVP;
 			sourceTree = "<group>";
 		};
@@ -152,7 +207,6 @@
 				383B143C1EC1C3830044F940 /* Model */,
 				383B143B1EC1C3820044F940 /* View */,
 			);
-			name = MVC;
 			path = MVC;
 			sourceTree = "<group>";
 		};
@@ -163,7 +217,6 @@
 				383B143E1EC1C3A20044F940 /* View */,
 				383B143F1EC1C3A30044F940 /* ViewModel */,
 			);
-			name = MVVM;
 			path = MVVM;
 			sourceTree = "<group>";
 		};
@@ -175,7 +228,6 @@
 				383B14631EC1D7B40044F940 /* Utils */,
 				383B14621EC1D58D0044F940 /* View */,
 			);
-			name = Common;
 			path = Common;
 			sourceTree = "<group>";
 		};
@@ -184,7 +236,6 @@
 			children = (
 				383B14541EC1D2E70044F940 /* MVCSignUpViewController.swift */,
 			);
-			name = Controller;
 			path = Controller;
 			sourceTree = "<group>";
 		};
@@ -192,7 +243,6 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -201,7 +251,6 @@
 			children = (
 				383B146A1EC1D9450044F940 /* MVCSignIn.swift */,
 			);
-			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
@@ -210,7 +259,6 @@
 			children = (
 				383B14561EC1D2FF0044F940 /* MVVMSignUpViewController.swift */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -219,7 +267,6 @@
 			children = (
 				383B14701EC1DFF70044F940 /* MVVMSignInViewModel.swift */,
 			);
-			name = ViewModel;
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
@@ -228,7 +275,6 @@
 			children = (
 				381D44A81EC4221F00AFCE21 /* MVVMUser.swift */,
 			);
-			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
@@ -237,7 +283,6 @@
 			children = (
 				383B140A1EC1C2C30044F940 /* Assets.xcassets */,
 			);
-			name = Images;
 			path = Images;
 			sourceTree = "<group>";
 		};
@@ -249,23 +294,22 @@
 				383B14721EC1E3A50044F940 /* UIButton+Extension.swift */,
 				383B14521EC1D28D0044F940 /* UIView+Extension.swift */,
 			);
-			name = Extension;
 			path = Extension;
 			sourceTree = "<group>";
 		};
 		383B14581EC1D3060044F940 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				38C6DEFD1EC44FE3008C49FA /* MVPUser.swift */,
 			);
-			name = Model;
 			path = Model;
 			sourceTree = "<group>";
 		};
 		383B14591EC1D30A0044F940 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				38C6DEFB1EC4354F008C49FA /* MVPSignUpViewPresenter.swift */,
 			);
-			name = Presenter;
 			path = Presenter;
 			sourceTree = "<group>";
 		};
@@ -274,7 +318,6 @@
 			children = (
 				383B145B1EC1D34F0044F940 /* MVPSignUpViewController.swift */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -283,7 +326,6 @@
 			children = (
 				383B14031EC1C2C30044F940 /* AppDelegate.swift */,
 			);
-			name = AppDelegate;
 			path = AppDelegate;
 			sourceTree = "<group>";
 		};
@@ -293,7 +335,6 @@
 				383B144D1EC1CFBD0044F940 /* SignUpView.swift */,
 				383B144F1EC1CFD90044F940 /* SignUpView.xib */,
 			);
-			name = View;
 			path = View;
 			sourceTree = "<group>";
 		};
@@ -303,8 +344,87 @@
 				383B14641EC1D7D10044F940 /* Result.swift */,
 				383B146E1EC1DAD10044F940 /* SignInError.swift */,
 			);
-			name = Utils;
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		CXJOUDQCM8HYL1KIEIX5TY4L /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				JDZGL4F6E2IE8B25YRGRYB5W /* CASignUpPresenter.swift */,
+				7E44N9TYEDFXZJC84R6NMF8F /* CASignUpPresenterImpl.swift */,
+			);
+			name = Presenter;
+			path = ../../CASignUp/Presenter;
+			sourceTree = "<group>";
+		};
+		EBFRMJ55UMAPNACFS23IHW6J /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				PP61I033CKNAASNIB54BDX11 /* CASignUpBuilder.swift */,
+				L3VIQ9857MHVM13FLEDI5EI2 /* CASignUpBuilderImpl.swift */,
+			);
+			name = Builder;
+			path = ../../CASignUp/Builder;
+			sourceTree = "<group>";
+		};
+		NR4TIZBFH8AUWXQ4DIH4SBZ6 /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				MHZG4WHCGHRW4NP0IYJU6OQH /* CASignUpDataStore.swift */,
+				URTFJG04PMOTZMIGJHHME9GA /* CASignUpDataStoreImpl.swift */,
+			);
+			name = DataStore;
+			path = ../../CASignUp/DataStore;
+			sourceTree = "<group>";
+		};
+		NXLXYRGULX0453SSK31077O2 /* Translator */ = {
+			isa = PBXGroup;
+			children = (
+				2BHYZPLRRTH2A1YKRXZL9XFJ /* CASignUpTranslator.swift */,
+				7VBDUU7GRJQI70LS0XVX5NB7 /* CASignUpTranslatorImpl.swift */,
+			);
+			name = Translator;
+			path = ../../CASignUp/Translator;
+			sourceTree = "<group>";
+		};
+		OXAKLKKN4TMXCX1YEXCRSVY7 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				W7QPKJPFTMATFVUD5XTW1MHV /* CASignUpUseCase.swift */,
+				BBR4NNM9OV4Q8E01M46QMUOF /* CASignUpUseCaseImpl.swift */,
+			);
+			name = UseCase;
+			path = ../../CASignUp/UseCase;
+			sourceTree = "<group>";
+		};
+		P8P5PE61A50WPYDW3B39YBLO /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EQRSLOUT00O9GNA7R5NAIH4L /* CASignUpViewController.swift */,
+				NKMW395YCB5XYM2CBE314B4E /* CASignUpViewControllerImpl.swift */,
+			);
+			name = View;
+			path = ../../CASignUp/View;
+			sourceTree = "<group>";
+		};
+		S297Q4UXG1CXC0LZMFLMLFYQ /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				38YSF9MYZ37GU4XG5PGDD4N3 /* CASignUpEntity.swift */,
+				E3GNUV0HD4EOJ6HZ8JONVNEF /* CASignUpEntityImpl.swift */,
+			);
+			name = Entity;
+			path = ../../CASignUp/Entity;
+			sourceTree = "<group>";
+		};
+		XY5FQQ4EVRGTP2C2IJWBCDQM /* Wireframe */ = {
+			isa = PBXGroup;
+			children = (
+				9Q4FQ5OLSL7GXASMARLMYNDY /* CASignUpWireframe.swift */,
+				GU16YVRJMVDVAXHLCSI1SLBT /* CASignUpWireframeImpl.swift */,
+			);
+			name = Wireframe;
+			path = ../../CASignUp/Wireframe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -381,22 +501,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				383B145E1EC1D3610044F940 /* DDDSignUpViewController.swift in Sources */,
 				383B14691EC1D8820044F940 /* ErrorProtocol.swift in Sources */,
 				383B14711EC1DFF70044F940 /* MVVMSignInViewModel.swift in Sources */,
 				381D44A91EC4221F00AFCE21 /* MVVMUser.swift in Sources */,
+				38C6DEFC1EC4354F008C49FA /* MVPSignUpViewPresenter.swift in Sources */,
 				383B14671EC1D8570044F940 /* UIAlertController+Extension.swift in Sources */,
 				383B144E1EC1CFBD0044F940 /* SignUpView.swift in Sources */,
 				383B14731EC1E3A50044F940 /* UIButton+Extension.swift in Sources */,
 				383B14571EC1D2FF0044F940 /* MVVMSignUpViewController.swift in Sources */,
-				383B14601EC1D36A0044F940 /* CASignUpViewController.swift in Sources */,
 				383B14531EC1D28D0044F940 /* UIView+Extension.swift in Sources */,
 				383B14651EC1D7D10044F940 /* Result.swift in Sources */,
+				38C6DEFE1EC44FE3008C49FA /* MVPUser.swift in Sources */,
 				383B146F1EC1DAD10044F940 /* SignInError.swift in Sources */,
 				383B146B1EC1D9450044F940 /* MVCSignIn.swift in Sources */,
 				383B14551EC1D2E70044F940 /* MVCSignUpViewController.swift in Sources */,
 				383B14041EC1C2C30044F940 /* AppDelegate.swift in Sources */,
 				383B145C1EC1D34F0044F940 /* MVPSignUpViewController.swift in Sources */,
+				A6K7HDHK1G8QIY8KG249CL25 /* CASignUpEntity.swift in Sources */,
+				MY79LBS410TX8IRXJ4U7ANBJ /* CASignUpEntityImpl.swift in Sources */,
+				XAO7DQLAOW980CVXN99ZB7P5 /* CASignUpDataStore.swift in Sources */,
+				0QIC87FX0GFZYD3YOAT8SWCU /* CASignUpDataStoreImpl.swift in Sources */,
+				R5P51KCN44SXWVYCH7G8MYGL /* CASignUpRepository.swift in Sources */,
+				QU1X5K5NZ1TRAC4JANGPTWOE /* CASignUpRepositoryImpl.swift in Sources */,
+				UC1RZR0Z6WKODE4H68ZY4FA3 /* CASignUpUseCase.swift in Sources */,
+				YT08PRBE9RYWB0CKRRGYLYDU /* CASignUpUseCaseImpl.swift in Sources */,
+				5FK52LFINC4HJCXSYH35A5M8 /* CASignUpTranslator.swift in Sources */,
+				GDW2WTK7GNS2KGEFGJVY23PT /* CASignUpTranslatorImpl.swift in Sources */,
+				RV11FFEYSX3LT9L1CJYRPODM /* CASignUpModel.swift in Sources */,
+				LNYG1FK9OZ2IP6WJER1GWVCD /* CASignUpModelImpl.swift in Sources */,
+				GDW57HTY465ZC1OEQFJ0OQMX /* CASignUpPresenter.swift in Sources */,
+				UY3HNFFRLIH7MJZTTVWMJSXP /* CASignUpPresenterImpl.swift in Sources */,
+				Z684QCRZGU3ZVI5UJVX6MO94 /* CASignUpViewController.swift in Sources */,
+				8EAOSBN03180CBD2UF9ES4Z1 /* CASignUpViewControllerImpl.swift in Sources */,
+				ZHBMMWD6WBCP11B5HWCSKSRP /* CASignUpWireframe.swift in Sources */,
+				ZVR6CPV2BILNEZV77L3YD6XJ /* CASignUpWireframeImpl.swift in Sources */,
+				JLS2KI3EKAQNA58XZAVL3629 /* CASignUpBuilder.swift in Sources */,
+				LFBIIXFLEETX9QM1AZ1HMTCJ /* CASignUpBuilderImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
